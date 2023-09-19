@@ -1,7 +1,6 @@
 # my_streamlit_app.py
 import streamlit as st
 from docx import Document
-from pydub import AudioSegment
 import speech_recognition as sr
 import tempfile
 import os
