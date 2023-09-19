@@ -26,7 +26,7 @@ def transcribe_audio(audio_file, docx_file):
             return False
 
 def main():
-    st.title("Audio to Text Transcription App")
+    st.title("Audio to Text Transcription App for Jo")
 
     # Upload WAV file
     uploaded_file = st.file_uploader("Upload a WAV file", type=["wav"])
